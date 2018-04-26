@@ -1,0 +1,91 @@
+.arrow-round {
+    position: absolute;
+    left: -27px;
+    top: -155px;
+    width: 420px;
+    height: 701px;
+    margin: 100px auto;
+    border: 2px solid rgb(182, 101, 148);
+    border-radius: 48%;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.arrow-round .point {
+    position: absolute;
+    left: 40px;
+    top: 315px;
+}
+
+.arrow-round .point:before, .arrow-round .point:after {
+    border: 1px solid rgb(182, 101, 148);
+    height: 15px;
+    content: "";
+    position: absolute;
+}
+
+.arrow-round .point:before {
+    top: -256px;
+    left: 296px;
+    transform: rotate(-56deg);
+    -webkit-transform: rotate(-56deg);
+    -moz-transform: rotate(-56deg);
+    -ms-transform: rotate(-56deg);
+}
+
+.arrow-round .point:after {
+    top: -258px;
+    right: -304px;
+    transform: rotate(-18deg);
+    -webkit-transform: rotate(-18deg);
+    -moz-transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
+}
+
+
+.arrow-round_1 {
+    position: absolute;
+    left: 272px;
+    top: -130px;
+    width: 249px;
+    height: 501px;
+    margin: 100px auto;
+    border: 2px solid rgb(182, 101, 148);
+    border-radius: 48%;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    display: none;
+}
+
+.arrow-round_1 .point_1 {
+    position: absolute;
+    left: 40px;
+    top: 315px;
+}
+
+.arrow-round_1 .point_1:before, .arrow-round_1 .point_1:after {
+    border: 1px solid rgb(182, 101, 148);
+    height: 9px;
+    content: "";
+    position: absolute;
+}
+
+.arrow-round_1 .point_1:before {
+    top: -276px;
+    left: 156px;
+    transform: rotate(-56deg);
+    -webkit-transform: rotate(-56deg);
+    -moz-transform: rotate(-56deg);
+    -ms-transform: rotate(-56deg);
+}
+
+.arrow-round_1 .point_1:after {
+    top: -278px;
+    right: -162px;
+    transform: rotate(-18deg);
+    -webkit-transform: rotate(-18deg);
+    -moz-transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
+}

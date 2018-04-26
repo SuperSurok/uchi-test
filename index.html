@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>UCHI.ru test</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/arrows.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<main class="main">
+    <div class="main-numbers">
+        <input type="number" readonly value="7" class="numbers reference_number_1">
+        <div class="plus inputs_item">+</div>
+        <input type="number" readonly value="4" class="numbers reference_number_2">
+        <div class="equals inputs_item">=</div>
+        <div class="inputs_item signquestion">?</div>
+        <!--Ограничение количества символов в input-->
+        <input type="number"
+               oninput="this.value=this.value.slice(0,this.maxLength)"
+               maxlength="2"
+               class="numbers answer">
+    </div>
+
+
+    <div class="ruler">
+        <!--Ограничение количества символов в input-->
+        <input type="number"
+               oninput="this.value=this.value.slice(0,this.maxLength)"
+               autofocus
+               type="number"
+               maxlength="1" class="ruler-input kids_input_1">
+        <div class="arrow-round">
+            <div class="point"></div>
+        </div>
+        <!--Ограничение количества символов в input-->
+        <input type="number"
+               oninput="this.value=this.value.slice(0,this.maxLength)"
+               maxlength="1"
+               class="ruler-input kids_input_2">
+        <div class="arrow-round_1">
+            <div class="point_1"></div>
+        </div>
+        <img src="img/sprite.png" alt="ruler">
+    </div>
+</main>
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
