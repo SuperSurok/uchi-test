@@ -1,0 +1,9 @@
+.arrow-round, .kids_input_1 {
+    animation:anim 5s;
+    animation-duration: 5s;
+}
+
+@keyframes anim {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

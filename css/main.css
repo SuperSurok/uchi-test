@@ -92,13 +92,15 @@ body {
 }
 
 .error-background {
-    background: rgba(237, 171, 88);
+    background: rgb(237, 171, 88);
 }
 
 .right-answer {
     display: block;
     border: none;
     color: black;
+    /*Белый фон для Firefox*/
+    background-color: white;
 }
 
 /* Убираем спин в input number */
